@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[------Before Suite-------]]>
+    </line>
+    <line>
+      <![CDATA[-----Before test------]]>
+    </line>
+    <line>
+      <![CDATA[-------before class------]]>
+    </line>
+    <line>
+      <![CDATA[------before method-------]]>
+    </line>
+    <line>
+      <![CDATA[------After Method------]]>
+    </line>
+    <line>
+      <![CDATA[-----after class-----]]>
+    </line>
+    <line>
+      <![CDATA[-----after test------]]>
+    </line>
+    <line>
+      <![CDATA[-----after suite-----]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10612" started-at="2019-02-27T04:17:22Z" finished-at="2019-02-27T04:17:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10612" started-at="2019-02-27T04:17:22Z" finished-at="2019-02-27T04:17:33Z">
+      <class name="TestClasses.TestFrameworkSample">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2019-02-27T04:17:22Z" finished-at="2019-02-27T04:17:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[------Before Suite-------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-27T04:17:22Z" finished-at="2019-02-27T04:17:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----Before test------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-02-27T04:17:22Z" finished-at="2019-02-27T04:17:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-------before class------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="beforeMethod" is-config="true" duration-ms="8074" started-at="2019-02-27T04:17:22Z" finished-at="2019-02-27T04:17:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------before method-------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="saveClick()[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="saveClick" duration-ms="2512" started-at="2019-02-27T04:17:30Z" finished-at="2019-02-27T04:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveClick -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-27T04:17:33Z" finished-at="2019-02-27T04:17:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[------After Method------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-27T04:17:33Z" finished-at="2019-02-27T04:17:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----after class-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-02-27T04:17:33Z" finished-at="2019-02-27T04:17:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----after test------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestClasses.TestFrameworkSample@78e67e0a]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-02-27T04:17:33Z" finished-at="2019-02-27T04:17:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----after suite-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestClasses.TestFrameworkSample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

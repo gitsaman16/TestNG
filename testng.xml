@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="TestClasses.TestFrameworkSample"/>
+      <!--  
+      <class name="TestClasses.TestAssertion"/>
+      <class name="TestClasses.TestCreateTypesOfWork"/>
+      <class name="TestClasses.TestCreateNewCustomer"/>
+      <class name="TestClasses.ExcelDataHandling"/>
+      <class name="TestClasses.TestActitimeLogin"/>
+      -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
